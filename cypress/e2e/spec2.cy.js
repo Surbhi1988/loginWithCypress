@@ -16,13 +16,15 @@ describe('username&password Test',()=>{
   
  // cy.get(':nth-child(2) > ._2IX_2-').focus().type('sur123@')
   //cy.get(':nth-child(2) > ._2IX_2-').focus().type('123@Surj')
+  //cy.get(':nth-child(2) > ._2IX_2-').type('Surbhijaiswal')
+  cy.get(':nth-child(2) > ._2IX_2-').focus()
   cy.get(':nth-child(2) > ._2IX_2-').type('Surbhijaiswal')
- // cy.get('._2QKxJ- > span').should(bi.visible).click()
+  cy.get('._1D1L_j > ._2KpZ6l').click()
                                                                                                                                                             
-cy.get('._1D1L_j > ._2KpZ6l').click()
-cy.get('._2QKxJ- > span').click()
-cy.get('._2IX_2-').type('8669079485')
-cy.get('._3AWRsL').click()
+// cy.get('._1D1L_j > ._2KpZ6l').click()
+// cy.get('._2QKxJ- > span').click()
+// cy.get('._2IX_2-').type('8669079485')
+// cy.get('._3AWRsL').click()
 
 
 
